@@ -62,7 +62,7 @@ public class AccountServiceTest {
     public void testUpdate() {
 
         //3.执行方法
-        Account account = as.findAccountById(4);
+        Account account = as.findAccountById(3);
         account.setMoney(23456f);
         as.updateAccount(account);
     }
